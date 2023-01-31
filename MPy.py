@@ -7,6 +7,11 @@ while True: #stuffs go brrrrr
         pass
     ret, frame = video_capture.read() #yoinks images from video
 
+#STUFF THAT FIND ORANGE PIXELS GOES HERE
+#
+
+
+
     cv2.imshow('Video', frame,)#converts the yoinked frames into pretty pictures and displays them
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
